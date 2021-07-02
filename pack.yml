@@ -1,0 +1,93 @@
+id: HC_CIV
+author: HC
+version: 0.1.0
+
+noise:
+
+  simplex:
+    dimensions: 2
+    type: OpenSimplex2
+    frequency: 0.0075
+
+biomes:
+
+  type: PIPELINE
+
+  biome: PLAINS
+
+  resolution: 3
+
+  blend:
+
+    amplitude: 1.75
+
+    noise:
+      type: OpenSimplex2
+      frequency: 0.12
+
+  pipeline:
+
+    source:
+
+      type: NOISE
+  
+      noise:
+        dimensions: 2
+        type: OpenSimplex2
+        frequency: 0.04
+
+      biomes:
+
+        PLAINS: 2
+        OCEAN: 1
+
+    stages:
+
+      - mutate:
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - FOREST: 2
+            - PLAINS: 1
+          noise:
+            type: OpenSimplex2
+            frequency: 0.03
+
+      - mutate: 
+          type: BORDER
+          from: OCEAN
+          to:
+            - BEACH: 1
+          replace: LAND
+          noise:
+            type: Constant
+
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 1
+
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 2
+
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 1
+
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 2
+
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 3

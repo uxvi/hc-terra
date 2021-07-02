@@ -1,0 +1,15 @@
+id: "OCEAN"
+vanilla: OCEAN
+extends: BASE
+tags:
+  - OCEAN
+
+palette:
+  - GENERIC: 255
+  - SHORE: 64
+  - SEA_FLOOR: 60
+  - "BLOCK:minecraft:bedrock": 0
+
+noise-equation: |
+  -y + 40
+  + simplex(x, z) * 10
