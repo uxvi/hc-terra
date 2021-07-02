@@ -1,0 +1,12 @@
+id: "ORANGE_TULIP"
+
+layers:
+  - materials:
+      - "minecraft:orange_tulip": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:grass_block"
+
+replaceable:
+  - "minecraft:air"
