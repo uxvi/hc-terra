@@ -1,0 +1,14 @@
+# INTO STARLIGHT WE CALL OUT, "WE'RE STILL HERE, CAN YOU HEAR ME?"
+
+id: "BLUE_ORCHID"
+
+layers:
+  - materials:
+      - "minecraft:blue_orchid": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:grass_block"
+
+replaceable:
+  - "minecraft:air"
