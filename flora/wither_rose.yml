@@ -1,0 +1,12 @@
+id: "WITHER_ROSE"
+
+layers:
+  - materials:
+      - "minecraft:wither_rose": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:grass_block"
+
+replaceable:
+  - "minecraft:air"
