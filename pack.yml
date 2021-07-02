@@ -12,7 +12,7 @@ noise:
   noise2:
     dimensions: 2
     type: OpenSimplex2
-    frequency: 0.0075
+    frequency: 0.01
     fractal:
       type: FBm
       octaves: 5
@@ -26,7 +26,7 @@ noise:
       octaves: 5
 
 variables:
-  base: 63
+  base: 64
 
 biomes:
 
