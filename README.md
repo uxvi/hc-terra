@@ -16,7 +16,7 @@ If you would like to contribute to this repo, ask to help on our [Discord](https
 + [oko](https://github.com/oko366)
 + [Warnerblue](https://github.com/warnerblue)
 + [Tiddy](https://github.com/TiddyT)
-+ [Mintphin](mintphin)
++ [mint](https://github.com/mintphin)
 
 ## License
 This project is licensed under the **GNU GPL v3.0**.
