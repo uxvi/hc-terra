@@ -1,0 +1,5 @@
+id: "ROCK_MEDIUM_1"
+scripts:
+  - "rock_medium_1": 1
+spawnable:
+  - "minecraft:grass_block"
