@@ -1,0 +1,5 @@
+id: "ROCK_BIG_1"
+scripts:
+  - "rock_big_1": 1
+spawnable:
+  - "minecraft:grass_block"

@@ -1,5 +1,5 @@
-id: "OAK_TREE"
+id: "ROCK_MEDIUM_1"
 scripts:
-  - "oak_tree": 1
+  - "rock_medium_1": 1
 spawnable:
   - "minecraft:grass_block"
