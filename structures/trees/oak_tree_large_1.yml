@@ -1,0 +1,5 @@
+id: "OAK_TREE_LARGE_1"
+scripts:
+  - "oak_tree_large_1": 1
+spawnable:
+  - "minecraft:grass_block"
