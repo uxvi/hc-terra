@@ -1,5 +1,5 @@
 id "oak_tree_large_2";
-num y = 0;
+num y = -3;
 block(0, y + 8, 7, "minecraft:oak_leaves[distance=7,persistent=true]");
 block(0, y + 8, 8, "minecraft:oak_leaves[distance=7,persistent=true]");
 block(0, y + 8, 13, "minecraft:oak_leaves[distance=7,persistent=true]");

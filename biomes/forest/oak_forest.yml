@@ -26,9 +26,9 @@ flora:
 trees:
   - density: 5
     items:
-      - OAK_TREE_LARGE_1: 3
-      - OAK_TREE_LARGE_2: 3
-      - OAK_TREE_LARGE_3: 3
+      - OAK_TREE_LARGE_1: 1
+      - OAK_TREE_LARGE_2: 1
+      - OAK_TREE_LARGE_3: 1
       - OAK_TREE_LARGE_4: 1
     y:
       min: 64
