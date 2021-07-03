@@ -8,4 +8,14 @@ palette:
   - GENERIC: 255
   - "BLOCK:minecraft:bedrock": 0
 
+flora:
+  - density: 50
+    items:
+      - TALL_GRASS: 2
+      - GRASS: 3
+      - WHEAT: 1
+    y:
+      min: 63
+      max: 255
+
 noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 5)|"
