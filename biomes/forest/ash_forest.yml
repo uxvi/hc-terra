@@ -1,0 +1,29 @@
+id: "ASH_FOREST"
+vanilla: JUNGLE_EDGE
+extends: "FOREST"
+tags:
+  - LAND
+
+palette:
+  - GENERIC: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+flora:
+  - density: 25
+    items:
+      - TALL_GRASS: 10
+      - GRASS: 69
+      - ACACIA_LEAVES: 20
+      - LILY_OF_THE_VALLEY: 1
+    y:
+      min: 63
+      max: 255
+
+trees:
+  - density: 8
+    items:
+      - ASH_TREE_1: 1
+      - ASH_TREE_2: 1
+    y:
+      min: 64
+      max: 255

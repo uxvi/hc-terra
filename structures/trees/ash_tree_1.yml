@@ -1,0 +1,5 @@
+id: "ASH_TREE_1"
+scripts:
+  - "ash_tree_1": 1
+spawnable:
+  - "minecraft:grass_block"
