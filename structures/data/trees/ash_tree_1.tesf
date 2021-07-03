@@ -1,5 +1,5 @@
 id "ash_tree_1";
-num y = 0;
+num y = -1;
 block(0, y + 3, 3, "minecraft:acacia_leaves[distance=3,persistent=true]");
 block(0, y + 4, 0, "minecraft:acacia_leaves[distance=4,persistent=true]");
 block(0, y + 4, 1, "minecraft:acacia_leaves[distance=3,persistent=true]");
