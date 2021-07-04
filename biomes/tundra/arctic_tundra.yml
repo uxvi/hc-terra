@@ -1,3 +1,8 @@
+# WARNING: This biome is UNFINISHED
+# at minimum, this biome needs:
+# Different rocks
+# Snow layer elevation rules
+
 id: "ARCTIC_TUNDRA"
 vanilla: ICE_SPIKES
 extends: "TUNDRA_COMMON"
