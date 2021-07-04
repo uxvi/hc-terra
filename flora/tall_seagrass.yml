@@ -1,0 +1,19 @@
+id: "TALL_SEAGRASS"
+
+layers:
+  - materials:
+      - "minecraft:tall_seagrass[half=upper]": 1
+    layers: 1
+  - materials:
+      - "minecraft:tall_seagrass[half=lower]": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:stone"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+
+replaceable:
+  - "minecraft:water"

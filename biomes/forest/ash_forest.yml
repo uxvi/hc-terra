@@ -1,6 +1,6 @@
 id: "ASH_FOREST"
 vanilla: JUNGLE_EDGE
-extends: "FOREST"
+extends: "FOREST_COMMON"
 tags:
   - LAND
 

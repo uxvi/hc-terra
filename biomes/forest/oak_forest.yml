@@ -1,6 +1,6 @@
 id: "OAK_FOREST"
 vanilla: FOREST
-extends: "FOREST"
+extends: "FOREST_COMMON"
 tags:
   - LAND
 

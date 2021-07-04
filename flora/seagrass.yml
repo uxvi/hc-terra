@@ -1,0 +1,16 @@
+id: "SEAGRASS"
+
+layers:
+  - materials:
+      - "minecraft:seagrass": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:stone"
+  - "minecraft:red_sand"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+
+replaceable:
+  - "minecraft:water"

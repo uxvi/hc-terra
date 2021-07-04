@@ -1,0 +1,18 @@
+id: "OCEAN"
+vanilla: OCEAN
+extends: "OCEAN_COMMON"
+tags:
+  - OCEAN
+
+palette:
+  - SEA_FLOOR: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+flora:
+  - density: 20
+    items:
+      - TALL_SEAGRASS: 1
+      - SEAGRASS: 3
+    y:
+      min: 24
+      max: 255
