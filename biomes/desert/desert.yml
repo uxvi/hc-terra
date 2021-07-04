@@ -1,0 +1,24 @@
+id: "DESERT"
+vanilla: DESERT
+extends: "DESERT_COMMON"
+tags:
+  - LAND
+
+palette:
+  - GENERIC: 255
+  - "BLOCK:minecraft:bedrock": 0
+  - "BLOCK:minecraft:sandstone": 60
+  - "BLOCK:minecraft:sand": 255
+
+trees:
+  - density: 0.1
+    items:
+      - DESERT_ROCK_1: 1
+    y: 
+      min: 64
+      max: 255
+
+#Rocks do the weird floaty thing <-- probably should fix that
+
+
+
