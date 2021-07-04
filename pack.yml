@@ -10,20 +10,20 @@ noise:
     frequency: 0.0075
   
   noise2:
+    type: FBm
     dimensions: 2
-    type: OpenSimplex2
-    frequency: 0.01
-    fractal:
-      type: FBm
-      octaves: 5
+    octaves: 4
+    function:
+      type: OpenSimplex2
+      frequency: 0.0075
   
   noise3:
+    type: FBm
     dimensions: 3
-    type: OpenSimplex2
-    frequency: 0.0075
-    fractal:
-      type: FBm
-      octaves: 5
+    octaves: 4
+    function:
+      type: OpenSimplex2
+      frequency: 0.0075
 
 variables:
   base: 64
@@ -34,7 +34,7 @@ biomes:
 
   biome: PLAINS
 
-  resolution: 3
+  resolution: 4
 
   blend:
 
