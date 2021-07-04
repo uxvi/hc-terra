@@ -1,33 +1,33 @@
-id: "ASH_FOREST"
-vanilla: JUNGLE_EDGE
+id: "BIRCH_FOREST"
+vanilla: FOREST
 extends: "FOREST_COMMON"
 tags:
   - LAND
 
 palette:
-  - GENERIC: 255
+  - FOREST_FLOOR: 255
   - "BLOCK:minecraft:bedrock": 0
 
 flora:
-  - density: 25
+  - density: 50
     items:
-      - TALL_GRASS: 10
-      - GRASS: 69
-      - ACACIA_LEAVES: 20
-      - LILY_OF_THE_VALLEY: 1
+      - TALL_FERN: 26
+      - GRASS: 37
+      - FERN: 37
     y:
       min: 63
       max: 255
 
 trees:
-  - density: 8
+  - density: 33
     items:
-      - ASH_TREE_1: 1
-      - ASH_TREE_2: 1
+      - BIRCH_TREE_SMALL_1: 1
+      - BIRCH_TREE_MEDIUM_1: 1
+      - BIRCH_TREE_LARGE_1: 1
     y:
       min: 64
       max: 255
-  - density: 0.5
+  - density: 5
     items:
       - ROCK_SMALL_1: 1
     y:

@@ -1,0 +1,8 @@
+id: "BEACH"
+vanilla: BEACH
+
+palette:
+  - SHORE: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+noise-equation: "-y + base"
