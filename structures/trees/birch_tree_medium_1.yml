@@ -1,0 +1,5 @@
+id: "BIRCH_TREE_MEDIUM_1"
+scripts:
+  - "birch_tree_medium_1": 1
+spawnable:
+  - "minecraft:grass_block"

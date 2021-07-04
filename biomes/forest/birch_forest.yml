@@ -1,0 +1,35 @@
+id: "BIRCH_FOREST"
+vanilla: FOREST
+extends: "FOREST_COMMON"
+tags:
+  - LAND
+
+palette:
+  - FOREST_FLOOR: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+flora:
+  - density: 50
+    items:
+      - TALL_FERN: 26
+      - GRASS: 37
+      - FERN: 37
+    y:
+      min: 63
+      max: 255
+
+trees:
+  - density: 33
+    items:
+      - BIRCH_TREE_SMALL_1: 1
+      - BIRCH_TREE_MEDIUM_1: 1
+      - BIRCH_TREE_LARGE_1: 1
+    y:
+      min: 64
+      max: 255
+  - density: 5
+    items:
+      - ROCK_SMALL_1: 1
+    y:
+      min: 63
+      max: 255
