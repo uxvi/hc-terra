@@ -56,7 +56,26 @@ biomes:
         frequency: 0.04
 
       biomes:
-
-        PLAINS: 1
+        PLAINS: 3
+        OCEAN: 2
 
     stages:
+      
+      - mutate:
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - OAK_FOREST: 2
+            - PLAINS: 1
+          noise:
+            type: OpenSimplex2
+            frequency: 0.03
+
+      - mutate: 
+          type: BORDER
+          from: LAND
+          to:
+            - BEACH: 1
+          replace: LAND
+          noise:
+            type: Constant
