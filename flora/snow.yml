@@ -15,5 +15,6 @@ spawnable:
   - "minecraft:gravel"
   - "minecraft:snow_block"
   - "minecraft:stone"
+  - "minecraft:ice"
 replaceable:
   - "minecraft:air"

@@ -1,0 +1,34 @@
+id: "DEEP_LUKEWARM_OCEAN"
+vanilla: DEEP_LUKEWARM_OCEAN
+extends: "DEEP_OCEAN_COMMON"
+tags:
+  - OCEAN
+
+palette:
+  - SANDY: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+flora:
+  - density: 10
+    items:
+      - TALL_SEAGRASS: 2
+      - SEAGRASS: 5
+      - KELP: 1
+    y:
+      min: 20
+      max: 255
+  - density: 5
+    items:
+      - TALL_KELP: 1
+    y:
+      min: 20
+      max: 30
+
+trees:
+  - density: 0.1
+    items:
+      - ROCK_BIG_1: 1
+      - ROCK_MEDIUM_1: 5
+    y:
+      min: 30
+      max: 255
