@@ -1,0 +1,22 @@
+id: "SUNFLOWER_PLAINS"
+vanilla: SUNFLOWER_PLAINS
+extends: PLAINS_COMMON
+tags:
+  - LAND
+
+flora:
+  - density: 75
+    items:
+      - TALL_GRASS: 1
+      - GRASS: 2
+      - WHEAT: 1
+    y:
+      min: 60
+      max: 255
+  - density: 25
+    items:
+      - SUNFLOWER: 1
+    y:
+      min: 60
+      max: 255
+
