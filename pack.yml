@@ -1,6 +1,7 @@
+# DO NOT COMMIT IF UNNECESSARY
 id: HC_TERRA
 author: HC
-version: 0.1.0S
+version: 0.2.0
 
 noise:
 
@@ -29,8 +30,11 @@ variables:
   base: 64
 
 biomes:
+  # SINGLE for testing a biome
+  # PIPELINE for testing how biomes work with each other
+  # IMAGE for production
 
-  type: SINGLE
+  type: PIPELINE
 
   biome: PLAINS
 
@@ -43,6 +47,8 @@ biomes:
     noise:
       type: OpenSimplex2
       frequency: 0.12
+  # NOTE: Pipeline development should be saved until work on 1.0.0 begins.
+  # Any work on the pipeline will most likely be overwritten by careless devs.
 
   pipeline:
 
@@ -65,6 +71,9 @@ biomes:
           type: REPLACE
           from: "BIOME:PLAINS"
           to:
+            - MOUNTAINS: 2
+            - ASH_FOREST: 2
+            - BIRCH_FOREST: 2
             - OAK_FOREST: 2
             - PLAINS: 1
           noise:
@@ -73,7 +82,7 @@ biomes:
 
       - mutate: 
           type: BORDER
-          from: LAND
+          from: OCEAN
           to:
             - BEACH: 1
           replace: LAND
