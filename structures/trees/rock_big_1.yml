@@ -3,3 +3,5 @@ scripts:
   - "rock_big_1": 1
 spawnable:
   - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"

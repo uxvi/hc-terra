@@ -1,30 +1,38 @@
-id: "OCEAN"
-vanilla: OCEAN
+id: "WARM_OCEAN"
+vanilla: WARM_OCEAN
 extends: "OCEAN_COMMON"
 tags:
   - OCEAN
 
 palette:
-  - SEA_FLOOR: 255
+  - SANDY: 255
   - "BLOCK:minecraft:bedrock": 0
 
 flora:
   - density: 20
     items:
-      - TALL_SEAGRASS: 1
-      - SEAGRASS: 3
-    y:
-      min: 30
-      max: 255
-  - density: 15
-    items:
+      - TALL_SEAGRASS: 3
+      - SEAGRASS: 5
       - KELP: 1
     y:
       min: 30
-      max: 43
+      max: 255
+  - density: 30
+    items:
+      - CORAL_FAN: 4
+      - SEA_PICKLE: 1
+    y:
+      min: 30
+      max: 255
 
 trees:
-  - density: 0.1
+  - density: 10
+    items:
+      - CORAL: 1
+    y:
+      min: 30
+      max: 255
+  - density: 1
     items:
       - ROCK_BIG_1: 1
       - ROCK_MEDIUM_1: 5

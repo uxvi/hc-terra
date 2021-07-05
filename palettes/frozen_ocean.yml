@@ -1,0 +1,12 @@
+id: "FROZEN_OCEAN"
+layers:
+  - materials:
+      - "minecraft:ice": 1
+    layers: 1
+  - materials:
+      - "minecraft:ice": 1
+      - "minecraft:water": 3
+    layers: 3
+  - materials:
+      - "minecraft:water": 1
+    layers: 1

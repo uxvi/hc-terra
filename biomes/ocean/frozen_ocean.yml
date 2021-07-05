@@ -1,5 +1,5 @@
-id: "OCEAN"
-vanilla: OCEAN
+id: "FROZEN_OCEAN"
+vanilla: FROZEN_OCEAN
 extends: "OCEAN_COMMON"
 tags:
   - OCEAN
@@ -8,20 +8,18 @@ palette:
   - SEA_FLOOR: 255
   - "BLOCK:minecraft:bedrock": 0
 
+ocean:
+  palette: "FROZEN_OCEAN"
+  level: 62
+
 flora:
-  - density: 20
+  - density: 1
     items:
       - TALL_SEAGRASS: 1
       - SEAGRASS: 3
     y:
-      min: 30
-      max: 255
-  - density: 15
-    items:
-      - KELP: 1
-    y:
-      min: 30
-      max: 43
+      min: 24
+      max: 255 
 
 trees:
   - density: 0.1
