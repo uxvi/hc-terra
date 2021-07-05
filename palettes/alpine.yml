@@ -1,0 +1,12 @@
+id: "ALPINE"
+layers:
+  - materials:
+      - "minecraft:dirt_path": 10
+      - "minecraft:grass_block": 30
+      - "minecraft:moss_block": 30
+      - "minecraft:stone": 30
+    layers: 1
+  - materials:
+      - "minecraft:stone": 85
+      - "minecraft:cobblestone": 15
+    layers: 1
