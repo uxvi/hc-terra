@@ -10,7 +10,7 @@ tags:
   - LAND
 
 palette:
-  - ARCTIC: 255
+  - SNOWY: 255
   - "BLOCK:minecraft:bedrock": 0
 
 flora:
