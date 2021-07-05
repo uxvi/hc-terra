@@ -14,7 +14,7 @@ If you would like to contribute to this repo, ask to help on our [Discord](https
 
 ## Credits
 + [oko](https://github.com/oko366)
-+ [warnerblue](https://github.com/warnerblue)
++ [soggy](https://github.com/ysogg)
 + [Tiddy](https://github.com/TiddyT)
 + [mint](https://github.com/mintphin)
 
