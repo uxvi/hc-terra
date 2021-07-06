@@ -1,0 +1,10 @@
+id: "BROWN_MUSHROOMS"
+scripts:
+  - mushroom_b_1: 1
+  - mushroom_b_2: 1
+  - mushroom_b_3: 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:mycelium"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

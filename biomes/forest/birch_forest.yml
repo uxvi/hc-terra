@@ -1,5 +1,5 @@
 id: "BIRCH_FOREST"
-vanilla: FOREST
+vanilla: BIRCH_FOREST
 extends: "FOREST_COMMON"
 tags:
   - LAND

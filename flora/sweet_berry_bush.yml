@@ -1,0 +1,13 @@
+id: "SWEET_BERRY_BUSH"
+
+layers:
+  - materials:
+      - "minecraft:sweet_berry_bush": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+
+replaceable:
+  - "minecraft:air"
