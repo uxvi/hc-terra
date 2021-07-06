@@ -5,10 +5,8 @@ tags:
   - LAND
 
 palette:
-  - GENERIC: 255
+  - DESERT_SAND: 255
   - "BLOCK:minecraft:bedrock": 0
-  - "BLOCK:minecraft:sandstone": 60
-  - "BLOCK:minecraft:sand": 255
 
 trees:
   - density: 0.1
@@ -17,8 +15,5 @@ trees:
     y: 
       min: 64
       max: 255
-
-#Rocks do the weird floaty thing <-- probably should fix that
-
 
 

@@ -2,4 +2,4 @@ id: "DESERT_ROCK_1"
 scripts:
   - "desert_rock_1": 1
 spawnable:
-  - "minecraft:sand"
+  - "minecraft:cut_sandstone"
