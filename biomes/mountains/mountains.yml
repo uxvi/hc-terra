@@ -9,7 +9,6 @@ slant:
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - SNOWY: 255
-  - SNOWY: 108
   - GENERIC: 84
 vanilla: MOUNTAINS
 tags:
