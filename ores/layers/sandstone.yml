@@ -1,0 +1,3 @@
+id: "SANDSTONE"
+extends: LAYERS
+material: "minecraft:sandstone"

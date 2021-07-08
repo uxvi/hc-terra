@@ -1,10 +1,10 @@
-id: "DESERT_SAND"
+id: "DESERT_SAND_RED"
 layers:
   - materials:
-      - "minecraft:sand": 3  
+      - "minecraft:red_sand": 3  
     layers: 1
   - materials:
-      - "minecraft:sandstone": 1
+      - "minecraft:red_sandstone": 1
     layers: 3
   - materials:
       - "minecraft:stone": 1

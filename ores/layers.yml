@@ -1,0 +1,8 @@
+id: LAYERS
+abstract: true
+type: VANILLA
+replace:
+  - "minecraft:sand"
+size:
+  min: 32
+  max: 32
