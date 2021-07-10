@@ -9,5 +9,8 @@ max-placements: 1
 spawn-blacklist: false
 spawnable:
   - "minecraft:stone"
+  - "minecraft:andesite"
+  - "minecraft:gray_concrete_powder"
+  - "minecraft:grass_block"
 replaceable:
   - "minecraft:air"
