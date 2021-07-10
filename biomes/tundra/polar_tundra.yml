@@ -3,7 +3,7 @@
 # Different rocks
 # Snow layer elevation rules
 
-id: "ARCTIC_TUNDRA"
+id: "POLAR_TUNDRA"
 vanilla: ICE_SPIKES
 extends: "TUNDRA_COMMON"
 tags:
