@@ -1,3 +1,5 @@
 id: "DESERT_COMMON"
-noise-equation: "-((y / base)^2)+1 + |(simplex(x, z)+1)/2|"
+noise-equation: "((-((y / base))) + 1) + noise2(x*0.75, z*0.75)/5 + 0.15"
+elevation:
+  equation: "(cellular1(x, z) + 1) * 0.225 * max(min(noise2(x*0.75, z*0.75) + 0.5, 1), 0)"
 abstract: true

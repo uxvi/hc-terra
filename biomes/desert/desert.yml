@@ -5,22 +5,21 @@ tags:
   - LAND
 
 palette:
-  - DESERT_SAND_RED: 65
   - DESERT_SAND: 255
   - "BLOCK:minecraft:bedrock": 0
 
 flora:
   - density: 0.2
     items:
+     - ACACIA_LEAVES: 1
      - DEAD_BUSH: 1
     y:
       min: 60
       max: 255
 trees:
-  - density: 1
+  - density: 0.6
     items:
-      - CACTUS: 4
-      - DESERT_ROCK_1: 1
+      - CACTUS: 1
     y: 
       min: 63
       max: 70

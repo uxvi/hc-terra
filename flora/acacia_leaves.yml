@@ -7,6 +7,7 @@ layers:
 
 spawnable:
   - "minecraft:grass_block"
+  - "minecraft:sand"
 
 replaceable:
   - "minecraft:air"
