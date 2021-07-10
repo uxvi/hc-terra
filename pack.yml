@@ -1,15 +1,29 @@
 # DO NOT COMMIT IF UNNECESSARY
 id: HC_TERRA
 author: HC
-version: 0.2.0
+version: 0.2.1
 
 noise:
+
+  value1: 
+    type: Value
+    dimensions: 2
+    frequency: 0.0225
+  cellular1:
+    type: Ridged
+    dimensions: 2
+    octaves: 4
+    function:
+      type: Cellular
+      frequency: 0.02
+
+# legacy noise
 
   simplex:
     dimensions: 2
     type: OpenSimplex2
     frequency: 0.0075
-  
+
   noise2:
     type: FBm
     dimensions: 2
