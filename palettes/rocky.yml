@@ -1,0 +1,6 @@
+id: "ROCKY"
+layers:
+  - materials:
+      - "minecraft:stone": 19
+      - "minecraft:cobblestone": 1
+    layers: 1

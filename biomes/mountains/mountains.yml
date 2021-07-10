@@ -6,17 +6,20 @@ slant:
     - "BLOCK:minecraft:bedrock": 0
     - "BLOCK:minecraft:stone": 64
     - SNOWY: 255
+    - ROCKY_SNOW: 90
+    - ROCKY: 80
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - SNOWY: 255
-  - GENERIC: 84
+  - ROCKY_SNOW: 90
+  - ROCKY: 80
 vanilla: MOUNTAINS
 tags:
   - "LAND"
 flora:
   - density: 80
     y:
-      min: 62
+      min: 94
       max: 150
     items:
       - SNOW: 1
