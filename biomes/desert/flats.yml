@@ -1,0 +1,12 @@
+id: FLATS
+vanilla: DESERT
+noise-equation: "((-((y / 40))) + 1)"
+elevation:
+  equation: "-(flats(x,z) - 1 * 0.3)"
+tags:
+  - LAND
+
+palette:
+  - "BLOCK:minecraft:white_concrete_powder": 255
+  - SALT: 63
+  - "BLOCK:minecraft:bedrock": 0

@@ -1,7 +1,7 @@
 # DO NOT COMMIT IF UNNECESSARY
 id: HC_TERRA
 author: HC
-version: 0.2.1
+version: 0.2.2
 
 noise:
 
@@ -15,7 +15,23 @@ noise:
     octaves: 4
     function:
       type: Cellular
-      frequency: 0.02
+      frequency: 0.05
+
+  flats:
+    type: Clamp
+    min: -0.3
+    max: -0.225
+    function:
+      type: DomainWarp
+      dimensions: 2
+      amplitude: 5
+      function:
+        type: Cellular
+        frequency: 0.12
+        return: Distance2Div
+      warp:
+        frequency: 0.012
+        type: OpenSimplex2 
 
 # legacy noise
 
