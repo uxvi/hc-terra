@@ -14,8 +14,9 @@ If you would like to contribute to this repo, ask to help on our [Discord](https
 
 ## Credits
 + [oko](https://github.com/oko366)
-+ [soggy](https://github.com/ysogg)
 + [Tiddy](https://github.com/TiddyT)
++ [Giusseppe Narto](https://github.com/GiusseppeNarto)
++ [soggy](https://github.com/ysogg)
 + [mint](https://github.com/mintphin)
 
 ## License
