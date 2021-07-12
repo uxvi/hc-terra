@@ -1,0 +1,3 @@
+id: "PACKED_ICE"
+extends: LAYERS
+material: "minecraft:packed_ice"

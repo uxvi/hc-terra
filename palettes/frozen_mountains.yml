@@ -1,0 +1,19 @@
+id: "FROZEN_MOUNTAINS"
+layers:
+  - materials:
+      - "minecraft:snow_block": 1
+      - "minecraft:stone": 1
+    layers: 1
+  - materials:
+      - "minecraft:stone": 1
+    layers: 2
+  - materials:
+      - "minecraft:stone": 1
+    layers: 1
+noise:
+    type: Clamp
+    min: -0.3
+    max: 1
+    function:
+        frequency: 0.0075
+        type: OPENSIMPLEX2

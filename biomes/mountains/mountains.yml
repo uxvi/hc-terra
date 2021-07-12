@@ -1,25 +1,21 @@
 id: "MOUNTAINS"
-extends: "MOUNTAINS_COMMON"
-prevent-smooth: true
-slant:
-  palette:
-    - "BLOCK:minecraft:bedrock": 0
-    - "BLOCK:minecraft:stone": 64
-    - SNOWY: 255
-    - ROCKY_SNOW: 90
-    - ROCKY: 80
-palette:
-  - "BLOCK:minecraft:bedrock": 0
-  - SNOWY: 255
-  - ROCKY_SNOW: 90
-  - ROCKY: 80
 vanilla: MOUNTAINS
+extends: "MOUNTAINS_COMMON"
 tags:
   - "LAND"
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - FROZEN_MOUNTAINS: 255
+ores:
+  PACKED_ICE:
+    min: 320
+    max: 480
+    min-height: 170
+    max-height: 255
 flora:
-  - density: 80
-    y:
-      min: 94
-      max: 150
+  - density: 100
     items:
       - SNOW: 1
+    y:
+      min: 63
+      max: 255

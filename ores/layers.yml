@@ -3,6 +3,7 @@ abstract: true
 type: VANILLA
 replace:
   - "minecraft:sand"
+  - "minecraft:snow_block"
 size:
   min: 32
   max: 32

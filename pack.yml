@@ -1,7 +1,7 @@
 # DO NOT COMMIT IF UNNECESSARY
 id: HC_TERRA
 author: HC
-version: 0.2.2
+version: 0.2.3
 
 noise:
 
@@ -16,6 +16,12 @@ noise:
     function:
       type: Cellular
       frequency: 0.05
+  pingpong1:
+    type: PINGPONG
+    octaves: 6
+    function:
+      type: PERLIN
+      frequency: 0.0025
 
   flats:
     type: Clamp
@@ -58,6 +64,7 @@ noise:
 
 variables:
   base: 64
+  tall: 96
 
 biomes:
   # SINGLE for testing a biome
