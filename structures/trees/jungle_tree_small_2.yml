@@ -1,0 +1,5 @@
+id: "JUNGLE_TREE_SMALL_2"
+scripts:
+  - "jungle_tree_small_2": 1
+spawnable: 
+  - "minecraft:grass_block"

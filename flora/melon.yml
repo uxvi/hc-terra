@@ -1,0 +1,12 @@
+id: "MELON"
+
+layers:
+  - materials:
+      - "minecraft:melon": 1
+    layers: 1
+
+spawnable:
+  - "minecraft:grass_block"
+
+replaceable:
+  - "minecraft:air"

@@ -1,0 +1,39 @@
+id: "TROPICAL_FOREST"
+vanilla: JUNGLE
+extends: "FOREST_COMMON"
+tags:
+  - LAND
+
+palette:
+  - JUNGLE: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+flora:
+  - density: 40
+    items:
+      - TALL_GRASS: 90
+      - GRASS: 48
+      - MELON: 1
+      - BIG_DRIPLEAF: 1
+      - JUNGLE_LEAVES: 20
+      - MOSS: 16
+    y:
+      min: 63
+      max: 255
+
+trees:
+  - density: 4
+    items: 
+      - "JUNGLE_TREE_LARGE_2": 1
+      - "JUNGLE_TREE_SMALL_2": 2
+    y:
+      min: 64
+      max: 255
+  - density: 1
+    items:
+      - ROCK_SMALL_1: 1
+    y:
+      min: 63
+      max: 255
+
+
