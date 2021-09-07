@@ -1,0 +1,27 @@
+id: "CHAPARRAL"
+vanilla: DESERT
+extends: "FOREST_COMMON"
+tags:
+  - LAND
+
+palette:
+  - CHAPARRAL: 255
+  - "BLOCK:minecraft:bedrock": 0
+
+flora:
+  - density: 60
+    items:
+      - ACACIA_LEAVES: 1
+      - DEAD_BUSH: 1
+      - GRASS: 98
+    y:
+      min: 60
+      max: 255
+trees:
+  - density: 5
+    items:
+      - AZALEA_BUSH: 1
+      - SPRUCE_BUSH: 1
+    y:
+      min: 63
+      max: 255

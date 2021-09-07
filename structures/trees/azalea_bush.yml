@@ -1,0 +1,6 @@
+id: "AZALEA_BUSH"
+scripts:
+  - "azalea_bush": 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
