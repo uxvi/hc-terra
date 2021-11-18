@@ -95,27 +95,17 @@ biomes:
   
       noise:
         dimensions: 2
-        type: OpenSimplex2
-        frequency: 0.04
+        type: RIDGED
+        octaves: 5
+        function:
+          type: Cellular
+          frequency: 0.01
 
       biomes:
-        PLAINS: 3
-        OCEAN: 2
+        PLAINS: 5  
+        OCEAN:  20
 
     stages:
-      
-      - mutate:
-          type: REPLACE
-          from: "BIOME:PLAINS"
-          to:
-            - MOUNTAINS: 2
-            - ASH_FOREST: 2
-            - BIRCH_FOREST: 2
-            - OAK_FOREST: 2
-            - PLAINS: 1
-          noise:
-            type: OpenSimplex2
-            frequency: 0.03
 
       - mutate: 
           type: BORDER
@@ -125,3 +115,13 @@ biomes:
           replace: LAND
           noise:
             type: Constant
+      
+      - mutate:
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - MOUNTAINS: 1
+            - PLAINS: 5
+          noise:
+            type: OpenSimplex2
+            frequency: 0.005

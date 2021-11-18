@@ -5,7 +5,8 @@ tags:
   - OCEAN
 
 palette:
-  - SEA_FLOOR: 255
+  - SANDY: 255
+  - SEA_FLOOR: 40
   - "BLOCK:minecraft:bedrock": 0
 
 flora:

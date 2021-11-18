@@ -1,7 +1,8 @@
 id: "BEACH"
 color: 0xdbce20
 vanilla: BEACH
-
+tags:
+  - "LAND"
 palette:
   - SHORE: 255
   - "BLOCK:minecraft:bedrock": 0
