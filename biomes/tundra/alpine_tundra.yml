@@ -15,11 +15,10 @@ slant:
 flora:
   - density: 80
     items:
-      - GLOW_LICHEN: 1
       - FERN: 25
       - GRASS: 24
       - TALL_GRASS: 10
-      - MOSS: 40
+      - GREEN_TERRACOTTA: 40
     y:
       min: 63
       max: 255

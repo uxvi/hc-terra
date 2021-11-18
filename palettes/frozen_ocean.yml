@@ -2,7 +2,6 @@ id: "FROZEN_OCEAN"
 layers:
   - materials:
       - "minecraft:snow_block": 5
-      - "minecraft:powder_snow": 1
     layers: 1
   - materials:
       - "minecraft:ice": 1

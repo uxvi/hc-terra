@@ -14,9 +14,8 @@ flora:
       - TALL_GRASS: 90
       - GRASS: 48
       - MELON: 1
-      - BIG_DRIPLEAF: 1
       - JUNGLE_LEAVES: 20
-      - MOSS: 16
+      - GREEN_TERRACOTTA: 16
     y:
       min: 63
       max: 255
@@ -35,5 +34,3 @@ trees:
     y:
       min: 63
       max: 255
-
-

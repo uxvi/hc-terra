@@ -2,7 +2,7 @@ id: "JUNGLE"
 layers:
   - materials:
       - "minecraft:grass_block": 15
-      - "minecraft:moss_block": 1
+      - "minecraft:green_terracotta": 1
     layers: 1
   - materials:
       - "minecraft:dirt": 2

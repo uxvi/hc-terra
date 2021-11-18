@@ -1,7 +1,6 @@
 id: "SALT"
 layers:
   - materials:
-      - "minecraft:calcite": 1
       - "minecraft:diorite": 1
       - "minecraft:white_concrete": 1
     layers: 2

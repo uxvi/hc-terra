@@ -8,15 +8,15 @@ for(num x = -radius; x <= radius; x = x + 1) {
         for(num z = -radius; z <= radius; z = z + 1) {
             num dist = (pow(x,2) + pow(y*3,2) + pow(z,2));
             if (dist < pow(radius,2)) {
-                block(x, y, z, "minecraft:azalea_leaves[persistent=true]", false);
+                block(x, y, z, "minecraft:jungle_leaves[persistent=true]", false);
             }
         }
     }
 }
 block( 0,  0,  0, "minecraft:oak_log");
 // Cap top of bush with leaves
-block( 0,  1,  0, "minecraft:azalea_leaves[persistent=true]", false);
-block( 1,  1,  0, "minecraft:azalea_leaves[persistent=true]", false);
-block(-1,  1,  0, "minecraft:azalea_leaves[persistent=true]", false);
-block( 0,  1,  1, "minecraft:azalea_leaves[persistent=true]", false);
-block( 0,  1, -1, "minecraft:azalea_leaves[persistent=true]", false);
+block( 0,  1,  0, "minecraft:jungle_leaves[persistent=true]", false);
+block( 1,  1,  0, "minecraft:jungle_leaves[persistent=true]", false);
+block(-1,  1,  0, "minecraft:jungle_leaves[persistent=true]", false);
+block( 0,  1,  1, "minecraft:jungle_leaves[persistent=true]", false);
+block( 0,  1, -1, "minecraft:jungle_leaves[persistent=true]", false);

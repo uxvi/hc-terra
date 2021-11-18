@@ -1,9 +1,9 @@
 id: "ALPINE"
 layers:
   - materials:
-      - "minecraft:dirt_path": 10
+      - "minecraft:grass_path": 10
       - "minecraft:grass_block": 30
-      - "minecraft:moss_block": 30
+      - "minecraft:green_terracotta": 30
       - "minecraft:stone": 30
     layers: 1
   - materials:
