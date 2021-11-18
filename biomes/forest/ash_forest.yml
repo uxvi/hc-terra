@@ -1,4 +1,5 @@
 id: "ASH_FOREST"
+color: 0x4b5e49
 vanilla: JUNGLE_EDGE
 extends: "FOREST_COMMON"
 tags:

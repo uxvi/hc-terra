@@ -1,4 +1,5 @@
 id: "PLAINS_COMMON"
+color: 0x9cd659
 abstract: true
 
 noise-equation: "((-((y / base)^2)) + 1) + |(simplex(x, z) / 20) + 0.1|"

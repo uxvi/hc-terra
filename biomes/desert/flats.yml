@@ -1,4 +1,5 @@
 id: FLATS
+color: 0xe8ead7
 vanilla: DESERT
 noise-equation: "((-((y / 40))) + 1)"
 elevation:

@@ -1,4 +1,5 @@
 id: "CHAPARRAL"
+color: 0xa7b247
 vanilla: DESERT
 extends: "FOREST_COMMON"
 tags:

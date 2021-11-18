@@ -1,4 +1,5 @@
 id: "TROPICAL_FOREST"
+color: 0x064f0b
 vanilla: JUNGLE
 extends: "FOREST_COMMON"
 tags:

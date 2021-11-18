@@ -1,3 +1,4 @@
 id: "MOUNTAINS_COMMON"
+color: 0x5b5b5b
 noise-equation: "(-y/tall)+1 + |pingpong1(x, z)|"
 abstract: true

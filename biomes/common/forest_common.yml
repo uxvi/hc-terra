@@ -1,3 +1,4 @@
 id: "FOREST_COMMON"
+color: 0x166617
 noise-equation: "((-((y / base)^2)) + 1) + |((noise2(x, z)+0.5) / 3.5)|"
 abstract: true

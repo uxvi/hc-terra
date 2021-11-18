@@ -1,4 +1,5 @@
 id: "BIRCH_FOREST"
+color: 0x6fa00e
 vanilla: BIRCH_FOREST
 extends: "FOREST_COMMON"
 tags:

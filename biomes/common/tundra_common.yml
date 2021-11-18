@@ -1,3 +1,4 @@
 id: "TUNDRA_COMMON"
+color: 0x5b7c34
 noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 5)|"
 abstract: true

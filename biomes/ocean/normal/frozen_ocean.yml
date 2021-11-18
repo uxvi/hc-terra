@@ -1,4 +1,5 @@
 id: "FROZEN_OCEAN"
+color: 0x54d8d8
 vanilla: FROZEN_OCEAN
 extends: "OCEAN_COMMON"
 tags:
